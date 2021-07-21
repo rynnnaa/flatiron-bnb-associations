@@ -1,4 +1,4 @@
 class Listing < ActiveRecord::Base
-  has_many :listings, through: :neighborhoods
+  belongs_to :neighborhoods
   
 end
