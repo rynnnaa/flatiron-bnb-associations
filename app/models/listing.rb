@@ -1,4 +1,4 @@
 class Listing < ActiveRecord::Base
-  belongs_to :neighborhoods
+  belongs_to :neighborhood
   
 end

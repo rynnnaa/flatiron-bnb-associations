@@ -23,7 +23,7 @@ ActiveRecord::Schema.define(version: 20210721212736) do
     t.string  "listing_type"
     t.integer "price"
     t.integer "neighborhood_id"
-    t.integer "host_id"
+    t.integer "user_id"
   end
 
   create_table "neighborhoods", force: :cascade do |t|
